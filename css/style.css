@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+a,
+span {
+    display: inline-block;
+    text-decoration: none;
+}
+
+body {
+
+    font-family: "Outfit", sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a:hover {
+    color: #148b91 !important;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.logo1 {
+    color: #148b91;
+    font-size: 22px;
+}
+
+.logo2 {
+    color: orange;
+    font-size: 22px;
+}
+
+nav {
+    background-color: #1e2d27;
+
+}
+
+.hr {
+    width: 50px;
+    border: 3px solid #FF3F33;
+    border-radius: 20px;
+    margin: 18px auto;
+    opacity: 100%;
+}
+
+
+nav a {
+    color: white !important;
+
+}
+.gray{ color: gray;}
+
+
+
+.hero-social {
+    border-radius: 10px;
+    top: 25%;
+    left: -7%;
+}
+
+.hero-social i {
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.hero-social>div>div:hover {
+    background-color: orange;
+}
+
+header {
+    background-color: #f1f1f1;
+}
+
+.home-hero {
+    padding: 50px 0px 0px 0px;
+}
+
+.hero-content h2 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+}
+
+.hero-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    z-index: 5;
+    position: relative;
+}
+
+.heading {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+.small-heading{ color: #405d50; font-size: 20px; font-weight: 600; text-align: center;}
+
+.about-para {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 70px;
+    color: gray;
+}
+
+#about {
+    padding: 120px 0px;
+}
+
+#projects {
+    padding: 120px 0px;
+    background-color: #f1f1f1;
+}
+
+.skill {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.hero-bg-left {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    bottom: 8%;
+    left: 18%;
+    z-index: 4;
+
+
+}
+
+.hero-bg-right {
+    width: 380px;
+    height: 300px;
+    position: absolute;
+    bottom: -10%;
+    right: 14%;
+    z-index: 4;
+}
+
+.im-parent {
+    cursor: pointer;
+    box-shadow: 0px 0px 6px 0px rgba(128, 128, 128, 0.27);
+}
+
+.port-info {
+    background-color: rgba(0, 0, 0, 0.696);
+    color: white;
+    bottom: 0px;
+    left: 20px;
+    width: 90%;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.port-info i {
+    font-size: 40px;
+}
+
+.port-info i:hover {
+    color: green;
+}
+
+.im-parent {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.345);
+}
+
+.im-parent:hover .port-info {
+    opacity: 1;
+    transform: translatey(-10px);
+}
+
+.text-org {
+    color: orange;
+    font-size: 15px;
+}
+
+
+
+/* footer start */
+
+footer {
+    background-color:#1e2d27;
+    padding: 100px 0px 30px;
+    border-radius: 50px 50px 0px 0px;
+    color: white;
+}
+
+footer i {
+    color: white;
+    font-size: 18px;
+}
+
+.foot-icon a {
+    border: 2px solid orange;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.foot-icon a:hover {
+    border-color: #148b91;
+}
+
+.foot-contact {
+    display: flex;
+    border-top: 1px solid orange;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 60px;
+    color: gray;
+}
+
+
+/* footer ends */
+
+
+
+
+/* skills section start*/
+
+#skills {
+    padding: 100px 0px;
+}
+
+.skills-icon div {
+    height: 80px;
+    width: 100px;
+}
+
+
+/* skills section ends */
+
+
+
+
+
+/* service section start */
+
+
+#services{ padding: 50px 0px 100px 0px;}
+
+.service-card{ width: 350px;height: 550px; border-radius: 25px;}
+
+.service-card a { color: black;}
+.service-card a:hover{ background-color: #30463c; padding: 5px 15px; color: white; border-radius: 10px;}
+
+.shadow-service:hover{ box-shadow: 0px 0px 8px 3px rgba(128, 128, 128, 0.138);}
+.shadow-service{ border: none;}
+
+/* service section ends */
