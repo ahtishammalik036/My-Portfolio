@@ -7,8 +7,12 @@ span {
 }
 
 body {
+    font-family: "Poppins", sans-serif;
+}
 
-    font-family: "Outfit", sans-serif;
+h1,
+h2 {
+    font-family: "Oswald", sans-serif;
 }
 
 ul li {
@@ -21,27 +25,23 @@ ul li a:hover {
 
 .logo {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
 }
 
 .logo1 {
     color: #148b91;
-    font-size: 22px;
+
 }
 
 .logo2 {
-    color: orange;
-    font-size: 22px;
-}
-
-nav {
-    background-color: #1e2d27;
+    color: #bf4a1a;
 
 }
 
 .hr {
     width: 50px;
-    border: 3px solid #FF3F33;
+    border: 3px solid #bf4a1a;
     border-radius: 20px;
     margin: 18px auto;
     opacity: 100%;
@@ -49,16 +49,33 @@ nav {
 
 
 nav a {
-    color: white !important;
+    color: black !important;
+    font-size: 30px;
 
 }
-.gray{ color: gray;}
+
+.gray {
+    color: gray;
+}
+
+.about-icon {
+    background-color: #bf4a1a;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+}
+
 
 
 
 .hero-social {
     border-radius: 10px;
-    top: 25%;
+    top: 30%;
     left: -7%;
 }
 
@@ -69,34 +86,16 @@ nav a {
 }
 
 .hero-social>div>div:hover {
-    background-color: orange;
+    background-color: #148b91;
 }
 
 header {
-    background-color: #f1f1f1;
+    background-color: #f4f3ec;
+    height: 100vh;
 }
 
 .home-hero {
     padding: 50px 0px 0px 0px;
-}
-
-.hero-content h2 {
-    font-size: 70px;
-    font-weight: 700;
-}
-
-.hero-content p {
-    font-size: 16px;
-    font-weight: 400;
-    color: gray;
-}
-
-.hero-content img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    z-index: 5;
-    position: relative;
 }
 
 .heading {
@@ -104,7 +103,13 @@ header {
     text-align: center;
     font-weight: 700;
 }
-.small-heading{ color: #405d50; font-size: 20px; font-weight: 600; text-align: center;}
+
+.small-heading {
+    color: #148b91;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
 
 .about-para {
     text-align: center;
@@ -115,12 +120,15 @@ header {
 }
 
 #about {
-    padding: 120px 0px;
+    padding: 100px 0px 100px;
+    background-image: url(../img/about.bg.png);
+    background-size: cover;
+    background-color: #f4f3ec;
+
 }
 
 #projects {
     padding: 120px 0px;
-    background-color: #f1f1f1;
 }
 
 .skill {
@@ -128,25 +136,9 @@ header {
     font-weight: 700;
 }
 
-.hero-bg-left {
-    width: 250px;
-    height: 200px;
-    position: absolute;
-    bottom: 8%;
-    left: 18%;
-    z-index: 4;
 
 
-}
 
-.hero-bg-right {
-    width: 380px;
-    height: 300px;
-    position: absolute;
-    bottom: -10%;
-    right: 14%;
-    z-index: 4;
-}
 
 .im-parent {
     cursor: pointer;
@@ -183,7 +175,7 @@ header {
 }
 
 .text-org {
-    color: orange;
+    color: #148b91;
     font-size: 15px;
 }
 
@@ -192,7 +184,7 @@ header {
 /* footer start */
 
 footer {
-    background-color:#1e2d27;
+    background-color: black;
     padding: 100px 0px 30px;
     border-radius: 50px 50px 0px 0px;
     color: white;
@@ -204,7 +196,7 @@ footer i {
 }
 
 .foot-icon a {
-    border: 2px solid orange;
+    border: 2px solid #148b91;
     height: 50px;
     width: 50px;
     border-radius: 100%;
@@ -215,12 +207,12 @@ footer i {
 
 
 .foot-icon a:hover {
-    border-color: #148b91;
+    border-color: gray;
 }
 
 .foot-contact {
     display: flex;
-    border-top: 1px solid orange;
+    border-top: 1px solid #148b91;
     margin-top: 50px;
     justify-content: center;
     gap: 60px;
@@ -236,7 +228,9 @@ footer i {
 /* skills section start*/
 
 #skills {
-    padding: 100px 0px;
+    padding: 1px 0px 50px;
+    background-color:#148b91ea;
+    color: white;
 }
 
 .skills-icon div {
@@ -254,14 +248,63 @@ footer i {
 /* service section start */
 
 
-#services{ padding: 50px 0px 100px 0px;}
+#services {
+    padding: 50px 0px 100px 0px;
 
-.service-card{ width: 350px;height: 550px; border-radius: 25px;}
+}
 
-.service-card a { color: black;}
-.service-card a:hover{ background-color: #30463c; padding: 5px 15px; color: white; border-radius: 10px;}
+.service-card {
+    width: 350px;
+    height: 550px;
+    border-radius: 25px;
+}
 
-.shadow-service:hover{ box-shadow: 0px 0px 8px 3px rgba(128, 128, 128, 0.138);}
-.shadow-service{ border: none;}
+.service-card a {
+    color: black;
+}
+
+.service-card a:hover {
+    background-color: #bf4a1a;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 10px;
+}
+
+.shadow-service:hover {
+    box-shadow: 0px 0px 8px 3px rgba(128, 128, 128, 0.138);
+}
+
+.shadow-service {
+    border: none;
+}
 
 /* service section ends */
+
+
+/* hero card start */
+
+.hero-card {
+    border-radius: 25px;
+}
+
+.hero-card a {
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.hero-card a:hover {
+    border-color: #148b91;
+    background-color: rgba(128, 128, 128, 0.036);
+}
+
+.hero-card i {
+    color: black;
+    font-size: 25px;
+}
+
+
+
+
+
+/* hero card ends */
