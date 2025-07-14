@@ -105,7 +105,7 @@ header {
 }
 
 .small-heading {
-    color: #148b91;
+    color: #bf4a1a;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
@@ -129,6 +129,8 @@ header {
 
 #projects {
     padding: 120px 0px;
+    background-color: #f4f3ec;
+   
 }
 
 .skill {
@@ -149,7 +151,7 @@ header {
     background-color: rgba(0, 0, 0, 0.696);
     color: white;
     bottom: 0px;
-    left: 20px;
+    left: 35px;
     width: 90%;
     opacity: 0;
     transition: all 0.5s ease;
@@ -184,7 +186,7 @@ header {
 /* footer start */
 
 footer {
-    background-color: black;
+    background-color: rgb(40, 40, 40);
     padding: 100px 0px 30px;
     border-radius: 50px 50px 0px 0px;
     color: white;
@@ -196,7 +198,7 @@ footer i {
 }
 
 .foot-icon a {
-    border: 2px solid #148b91;
+    border: 2px solid #bf4a1a;
     height: 50px;
     width: 50px;
     border-radius: 100%;
@@ -212,7 +214,7 @@ footer i {
 
 .foot-contact {
     display: flex;
-    border-top: 1px solid #148b91;
+    border-top: 1px solid #bf4a1a;
     margin-top: 50px;
     justify-content: center;
     gap: 60px;
@@ -220,7 +222,7 @@ footer i {
 }
 
 
-/* footer ends */
+/* footer end */
 
 
 
@@ -228,8 +230,8 @@ footer i {
 /* skills section start*/
 
 #skills {
-    padding: 1px 0px 50px;
-    background-color:#148b91ea;
+    padding: 10px 0px 50px;
+    background-color:rgb(40, 40, 40);
     color: white;
 }
 
@@ -239,7 +241,7 @@ footer i {
 }
 
 
-/* skills section ends */
+/* skills section end */
 
 
 
@@ -250,6 +252,7 @@ footer i {
 
 #services {
     padding: 50px 0px 100px 0px;
+    background-color: rgb(40, 40, 40);
 
 }
 
@@ -257,10 +260,11 @@ footer i {
     width: 350px;
     height: 550px;
     border-radius: 25px;
+    background-color: rgb(40, 40, 40);
 }
 
 .service-card a {
-    color: black;
+    color: white;
 }
 
 .service-card a:hover {
@@ -271,14 +275,14 @@ footer i {
 }
 
 .shadow-service:hover {
-    box-shadow: 0px 0px 8px 3px rgba(128, 128, 128, 0.138);
+    box-shadow: 0px 0px 15px 5px rgba(128, 128, 128, 0.308);
 }
 
 .shadow-service {
     border: none;
 }
 
-/* service section ends */
+/* service section end */
 
 
 /* hero card start */
@@ -304,7 +308,17 @@ footer i {
 }
 
 
+/* hero card end */
 
 
+/* contact form start */
 
-/* hero card ends */
+#contact{ padding: 100px 0px;
+    
+}
+#contactForm{background-color: #f4f3ec; }
+.contact-form{background-color:#f4f3ec; }
+.contact-form textarea { background-color: #f4f3ec;}
+.contact-form input { background-color: #f4f3ec;}
+
+/* contact form end */
