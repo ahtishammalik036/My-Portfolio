@@ -354,13 +354,51 @@ footer i {
 
 /* contact form end */
 
-/* @media (max-width: 560px) {
+/* responsive media start */
+
+
+@media (max-width: 992px) {
     h1 {
-        font-size: 45px
+        font-size: 60px;
     }
 
     .hero-des {
         font-size: 40px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .service-card {
+        width: 90%;
+        height: auto;
+    }
+
+    .hero-img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-social {
+        position: static;
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 560px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    .hero-des {
+        font-size: 30px;
+        text-align: center;
     }
 
     .home-hero p {
@@ -368,13 +406,33 @@ footer i {
     }
 
     .hero-img {
-        width: 400px;
+        width: 100%;
+        max-width: 250px;
     }
 
-    .hero-social div {
+    .hero-social {
         display: none;
     }
 
-.home-hero .row{ flex-direction: column; align-items: center; justify-content: space-around;}
+    .heading {
+        font-size: 24px;
+    }
 
-} */
+    .about-para {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+    .foot-contact {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+
+/* responsive end */
