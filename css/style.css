@@ -9,7 +9,10 @@ span {
 body {
     font-family: "Poppins", sans-serif;
 }
-.row{margin: 0px;}
+
+.row {
+    margin: 0px;
+}
 
 .brown {
     color: #bf4a1a;
@@ -356,7 +359,6 @@ footer i {
 
 /* responsive media start */
 
-
 @media (max-width: 992px) {
     h1 {
         font-size: 60px;
@@ -378,6 +380,7 @@ footer i {
     .hero-img {
         width: 100%;
         max-width: 300px;
+        margin: auto;
     }
 
     .row {
@@ -391,7 +394,7 @@ footer i {
     }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 576px) {
     h1 {
         font-size: 45px;
     }
@@ -405,9 +408,11 @@ footer i {
         display: none;
     }
 
-    .hero-img {
-        width: 100%;
-        max-width: 250px;
+    .hero-img img {
+        width: 350px !important;
+        height: auto !important;
+        display: block;
+        margin: 0 auto;
     }
 
     .hero-social {
@@ -436,5 +441,3 @@ footer i {
 
 
 /* responsive end */
-
-
