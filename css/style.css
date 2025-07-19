@@ -9,6 +9,7 @@ span {
 body {
     font-family: "Poppins", sans-serif;
 }
+.row{margin: 0px;}
 
 .brown {
     color: #bf4a1a;
