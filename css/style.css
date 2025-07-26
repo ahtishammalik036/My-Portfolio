@@ -20,6 +20,7 @@ body {
 
 h1 {
     font-size: 120px;
+    color: #afafaf;
 }
 
 h1,
@@ -29,35 +30,40 @@ h2 {
 
 .hero-des {
     font-size: 60px;
+    color: #f1f1f1;
 }
 
 ul li {
     list-style: none;
 }
 
+
 ul li a:hover {
-    color: #148b91 !important;
+    color: white !important;
+    border-bottom: 3px solid #0d6efd;
 }
+
 
 .logo {
     font-weight: bold;
     font-size: 30px;
     font-family: "Oswald", sans-serif;
+    color: white !important;
 }
 
 .logo1 {
-    color: #148b91;
+    color: #0d6efd;
 
 }
 
 .logo2 {
-    color: #bf4a1a;
+    color: #0d6efd;
 
 }
 
 .hr {
     width: 50px;
-    border: 3px solid #bf4a1a;
+    border: 3px solid #0d6efd;
     border-radius: 20px;
     margin: 18px auto;
     opacity: 100%;
@@ -65,17 +71,17 @@ ul li a:hover {
 
 
 nav a {
-    color: black !important;
+    color: #afafaf !important;
     font-size: 30px;
 
 }
 
 .gray {
-    color: gray;
+    color: #afafaf;
 }
 
 .about-icon {
-    background-color: #bf4a1a;
+    background-color: #0d6efd;
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -92,7 +98,7 @@ nav a {
 .hero-social {
     border-radius: 10px;
     top: 30%;
-    left: -7%;
+    background-color: black;
 }
 
 .hero-social i {
@@ -102,17 +108,22 @@ nav a {
 }
 
 .hero-social>div>div:hover {
-    background-color: #148b91;
+    background-color: #afafaf;
 }
 
 header {
-    background-color: #f4f3ec;
+    background-color: #111215;
     min-height: 100vh;
     padding: 10px;
+    background-image: url(../img/bg-box.png);
 }
 
 .home-hero {
     padding: 50px 0px 0px 0px;
+}
+
+.home-hero p {
+    color: #afafaf;
 }
 
 .heading {
@@ -122,7 +133,7 @@ header {
 }
 
 .small-heading {
-    color: #bf4a1a;
+    color: #0d6efd;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
@@ -138,16 +149,16 @@ header {
 
 #about {
     padding: 100px 0px;
-    background-image: url(../img/about.bg.png);
     background-size: cover;
-    background-color: #f4f3ec;
+    background-color: #111215;
+    color: white;
 
 }
 
 #projects {
     padding: 100px 0px;
-    background-color: #f4f3ec;
-
+    background-color: #111215;
+    background-image: url(../img/bg-box.png);
 }
 
 .skill {
@@ -179,7 +190,7 @@ header {
 }
 
 .port-info i:hover {
-    color: green;
+    color: #0d6efd;
 }
 
 .im-parent {
@@ -194,7 +205,7 @@ header {
 }
 
 .text-org {
-    color: #148b91;
+    color: #0d6efd;
     font-size: 15px;
 }
 
@@ -203,9 +214,10 @@ header {
 /* footer start */
 
 footer {
-    background-color: rgb(40, 40, 40);
+
+    background-color: #111215;
     padding: 100px 0px 30px;
-    border-radius: 50px 50px 0px 0px;
+    border-top: 2px solid #0d6efd;
     color: white;
 }
 
@@ -215,8 +227,8 @@ footer i {
 }
 
 .foot-icon a {
-    border: 2px solid #bf4a1a;
-    background-color: #bf4a1a;
+    border: 2px solid #0d6efd;
+    background-color: #0d6efd;
     height: 50px;
     width: 50px;
     border-radius: 100%;
@@ -232,7 +244,7 @@ footer i {
 
 .foot-contact {
     display: flex;
-    border-top: 1px solid #bf4a1a;
+    border-top: 1px solid #0d6efd;
     margin-top: 50px;
     justify-content: center;
     gap: 60px;
@@ -249,8 +261,9 @@ footer i {
 
 #skills {
     padding: 10px 0px 50px;
-    background-color: rgb(40, 40, 40);
+    background-color: #151921;
     color: white;
+
 }
 
 .skills-icon div {
@@ -267,42 +280,30 @@ footer i {
 
 /* service section start */
 
-
 #services {
-    padding: 50px 0px 100px 0px;
-    background-color: rgb(40, 40, 40);
-
+    background-color: #151921;
+    background-image: url(../img/bg-box.png);
+    padding: 100px 0px;
 }
 
-.service-card {
-    width: 350px;
-    height: 550px;
-    border-radius: 25px;
-    background-color: rgb(40, 40, 40);
-}
-
-.service-card a {
-    color: white;
-}
-
-.service-card a:hover {
-    background-color: #bf4a1a;
-    padding: 5px 15px;
-    color: white;
-    border-radius: 10px;
-}
-
-
-.shadow-service:hover {
-    box-shadow: 0px 0px 15px 5px rgba(128, 128, 128, 0.308);
-    background-color: #08393a;
-}
-
-.shadow-service {
+.card-custom {
+    background-color: #111215;
+    transition: transform 0.3s, box-shadow 0.3s;
     border: none;
+    color: white;
 }
 
-/* service section end */
+.card-custom:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+}
+
+.icon-custom {
+    font-size: 40px;
+    color: #0d6efd;
+    margin-bottom: 15px;
+}
+
 
 
 /* hero card start */
@@ -318,7 +319,7 @@ footer i {
 }
 
 .hero-card a:hover {
-    border-color: #148b91;
+    border-color: #0d6efd;
     background-color: rgba(128, 128, 128, 0.036);
 }
 
@@ -335,23 +336,29 @@ footer i {
 
 #contact {
     padding: 100px 0px;
+    background-color: #151921;
+    color: white;
+    background-image: url(../img/bg-box.png);
 
 }
 
 #contactForm {
-    background-color: #f4f3ec;
+    background-color: #111215;
 }
 
 .contact-form {
-    background-color: #f4f3ec;
+    background-color: #111215;
+    color: #afafaf;
 }
 
 .contact-form textarea {
-    background-color: #f4f3ec;
+    background-color: #111215;
+
 }
 
 .contact-form input {
-    background-color: #f4f3ec;
+    background-color: #111215;
+
 }
 
 

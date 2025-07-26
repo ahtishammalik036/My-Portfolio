@@ -29,7 +29,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 fw-bold ">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 fw-bold gap-5">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
@@ -47,8 +47,8 @@
                     </ul>
 
                     <div>
-                    
-                        <a class="btn btn-dark text-white" href="#contact">Contact</a>
+
+                        <a class="btn btn-primary text-white" href="#contact">Contact</a>
 
                     </div>
                 </div>
@@ -59,7 +59,7 @@
         </nav>
 
         <!-- navbar end -->
-
+        <!-- 
         <div class="container home-hero position-relative">
 
 
@@ -85,41 +85,75 @@
             </div>
 
 
-
-
-
-            <div class="bg-white hero-social d-flex justify-content-center position-absolute d-none d-md-flex">
+            <div class="hero-social d-flex justify-content-center position-absolute d-none d-md-flex">
                 <div>
                     <div class="mb-3 mt-3">
-                        <a href=""><i class="bi bi-twitter-x"></i></a>
+                        <a href=""><i class="bi bi-twitter-x text-white"></i></a>
                     </div>
                     <div class="mb-3">
-                        <a href=""><i class="bi bi-github"></i></a>
+                        <a href=""><i class="bi bi-github text-white"></i></a>
                     </div>
                     <div class="mb-3">
-                        <a href=""><i class="bi bi-linkedin"></i></a>
+                        <a href=""><i class="bi bi-linkedin text-white"></i></a>
                     </div>
                     <div class="mb-3">
-                        <a href=""><i class="bi bi-envelope-fill"></i></a>
+                        <a href=""><i class="bi bi-envelope-fill text-white"></i></a>
                     </div>
                 </div>
 
             </div>
 
 
+        </div> -->
 
 
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container position-relative">
+                <div class="row align-items-center">
+                    <div class="col-lg-6" data-aos="fade-down">
+                        <h1 class="display-4 fw-bold mb-4">
+                            Ahtisham Ahamd
+                        </h1>
+                        <h2 class="text-white fw-bold mb-4">
+                            Hi, I'm <span class="typed-text text-primary"></span>
+                        </h2>
+                        <p class="gray">Designing pixels with purpose, coding dreams into stunning user
+                            realities<br>Transforming
+                            ideas into visuals that captivate, communicate, and inspire daily</p>
+                        <div class="d-flex gap-3 justify-content-center justify-content-md-start">
+                            <a href="#contact" class="btn btn-primary px-4 py-2 rounded-pill">Hire Me</a>
+                            <a href="#portfolio" class="btn btn-outline-primary px-4 py-2 rounded-pill">View Work</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-up">
+                        <div class="hero-img">
+                            <img src="./img/hero-img.png" alt="Developer" class="img-fluid mt-3 p-0" />
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="hero-social d-flex justify-content-center position-absolute d-none d-md-flex">
+                <div>
+                    <div class="mb-3 mt-3">
+                        <a href=""><i class="bi bi-twitter-x text-white"></i></a>
+                    </div>
+                    <div class="mb-3">
+                        <a href=""><i class="bi bi-github text-white"></i></a>
+                    </div>
+                    <div class="mb-3">
+                        <a href=""><i class="bi bi-linkedin text-white"></i></a>
+                    </div>
+                    <div class="mb-3">
+                        <a href=""><i class="bi bi-envelope-fill text-white"></i></a>
+                    </div>
+                </div>
 
+            </div>
 
+        </section>
 
-
-
-
-
-
-
-        </div>
 
 
     </header>
@@ -156,7 +190,7 @@
                     </div>
 
                 </div>
-                
+
             </div>
         </section>
 
@@ -170,7 +204,8 @@
         <section id="about">
             <div class="container text-center" data-aos="fade-up" data-aos-duration="1000">
                 <h2 class="heading">About</h2>
-                <h3 class="text-center mt-4">Hi, I'm Ahtisham Ahmad I am a creative front-end designer <br> specializing
+                <h3 class="text-center mt-4 gray">Hi, I'm Ahtisham Ahmad I am a creative front-end designer <br>
+                    specializing
                     in clean, responsive interfaces</h3>
                 <div class="about-icon">
                     <i class="bi bi-quote text-white"></i>
@@ -178,8 +213,9 @@
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-6 text-center">
                         <h3 class="skill mb-5">QUALIFICATIONS</h3>
-                        <p>Hi, I'm <strong>Ahtisham Ahmad</strong>. I am a skilled <strong>Front-End Designer</strong>
-                            with over 4 years of experience in
+                        <p class="gray">Hi, I'm <strong>Ahtisham Ahmad</strong>. I am a skilled <strong>Front-End
+                                Designer</strong>
+                            with experience in
                             creating responsive,
                             visually appealing, and <strong>user-friendly</strong> web interfaces. My expertise includes
                             <strong>HTML, CSS,
@@ -206,72 +242,51 @@
 
         <!-- about section ends -->
 
-
-        <!-- services section start -->
-
-        <section id="services">
-
+        <!-- Services Section -->
+        <section class="text-center" id="services">
             <div class="container">
-                <h2 class="small-heading">What I Do</h2>
-                <h2 class="heading text-white">Service Offer</h2>
+                <h2 class="mb-5 text-white">My Services</h2>
+                <div class="row g-4">
 
-                <div class="row mt-5">
-                    <div class="col-md-4 d-flex justify-content-center">
-                        <div class="card service-card shadow-service" data-aos="fade-up" data-aos-duration="1000">
-                            <img src="./img/web designer.png" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title fw-bold text-white">Front-End Web Developer</h5>
-                                <p class="card-text gray">Some quick example text to build on the card title and make up
-                                    the bulk
-                                    of the card’s content.</p>
-                                <a href="#">See More<i class="bi bi-arrow-right-short ms-2"></i></a>
+                    <!-- Service 1 -->
+                    <div class="col-md-4">
+                        <div class="card card-custom p-4 rounded-4 h-100">
+                            <div class="card-body">
+                                <i class="bi bi-laptop icon-custom"></i>
+                                <h5 class="card-title fw-bold mt-3">Front-End Web Developer</h5>
+                                <p class="card-text gray ">I build modern, responsive websites using HTML,
+                                    CSS, JavaScript, and frameworks.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-4 d-flex justify-content-center">
-                        <div class="card service-card shadow-service" data-aos="fade-up" data-aos-duration="1000"
-                            data-aos-delay="500">
-                            <img src="./img/graphics designer.png" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title fw-bold text-white">Front-End Web Developer</h5>
-                                <p class="card-text gray">Some quick example text to build on the card title and make up
-                                    the bulk
-                                    of the card’s content.</p>
-                                <a href="#">See More<i class="bi bi-arrow-right-short ms-2 "></i></a>
+                    <!-- Service 2 -->
+                    <div class="col-md-4">
+                        <div class="card card-custom p-4 rounded-4 h-100">
+                            <div class="card-body">
+                                <i class="bi bi-brush icon-custom"></i>
+                                <h5 class="card-title fw-bold mt-3">Graphics Design</h5>
+                                <p class="card-text gray">Creative designs for web, social media, and
+                                    branding using tools like Photoshop & more.</p>
                             </div>
                         </div>
                     </div>
 
-
-                    <div class="col-md-4 d-flex justify-content-center">
-                        <div class="card service-card shadow-service" data-aos="fade-up" data-aos-duration="1000"
-                            data-aos-delay="1000">
-                            <img src="./img/Responsive Design.png" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title fw-bold text-white">Responsive Design</h5>
-                                <p class="card-text gray">Some quick example text to build on the card title and make up
-                                    the bulk
-                                    of the card’s content.</p>
-                                <a href="#">See More<i class="bi bi-arrow-right-short ms-2 "></i></a>
+                    <!-- Service 3 -->
+                    <div class="col-md-4">
+                        <div class="card card-custom p-4 rounded-4 h-100">
+                            <div class="card-body">
+                                <i class="bi bi-phone icon-custom"></i>
+                                <h5 class="card-title fw-bold mt-3">Responsive Design</h5>
+                                <p class="card-text gray">Websites that look great on all devices from
+                                    mobile phones to desktops.</p>
                             </div>
                         </div>
                     </div>
-
-
-
-
 
                 </div>
             </div>
-
-
         </section>
-
-        <!-- services section ends -->
-
-
-
 
 
         <!-- my Project section -->
@@ -279,7 +294,7 @@
 
             <div class="container">
 
-                <h2 class="heading">Projects</h2>
+                <h2 class="heading text-white">Projects</h2>
                 <hr class="hr">
                 <p class="about-para">Here are a few past design projects I've worked on. Want to see more? <a
                         href="">Email me</a></p>
@@ -478,38 +493,38 @@
                         <div class="contact-info p-3">
                             <div class="contact-item d-flex mb-4">
                                 <div class="icon-box bg-primary-light rounded-circle flex-shrink-0 me-3">
-                                    <i class="ri-map-pin-line brown fs-2"></i>
+                                    <i class="ri-map-pin-line text-primary fs-2"></i>
                                 </div>
                                 <div>
                                     <h5 class="mb-1">Location</h5>
-                                    <p class="mb-0 text-muted">Lodhran, Pakistan</p>
+                                    <p class="mb-0 gray">Lodhran, Pakistan</p>
                                 </div>
                             </div>
                             <div class="contact-item d-flex mb-4">
                                 <div class="icon-box bg-primary-light rounded-circle flex-shrink-0 me-3">
-                                    <i class="ri-mail-line brown fs-2"></i>
+                                    <i class="ri-mail-line text-primary fs-2"></i>
                                 </div>
                                 <div>
                                     <h5 class="mb-1">Email</h5>
-                                    <p class="mb-0 text-muted">ahtishammalik036@gmail.com</p>
+                                    <p class="mb-0 gray">ahtishammalik036@gmail.com</p>
                                 </div>
                             </div>
                             <div class="contact-item d-flex mb-4">
                                 <div class="icon-box bg-primary-light rounded-circle flex-shrink-0 me-3">
-                                    <i class="ri-phone-line brown fs-2"></i>
+                                    <i class="ri-phone-line text-primary fs-2"></i>
                                 </div>
                                 <div>
                                     <h5 class="mb-1">Phone</h5>
-                                    <p class="mb-0 text-muted">+923062394163</p>
+                                    <p class="mb-0 gray">+923062394163</p>
                                 </div>
                             </div>
                             <div class="contact-item d-flex">
                                 <div class="icon-box bg-primary-light rounded-circle flex-shrink-0 me-3">
-                                    <i class="ri-time-line brown fs-2"></i>
+                                    <i class="ri-time-line text-primary fs-2"></i>
                                 </div>
                                 <div>
                                     <h5 class="mb-1">Working Hours</h5>
-                                    <p class="mb-0 text-muted">Mon-Fri: 9AM - 5PM</p>
+                                    <p class="mb-0 gray">Mon-Fri: 9AM - 5PM</p>
                                 </div>
                             </div>
                         </div>
@@ -541,6 +556,11 @@
                             </form>
                         </div>
                     </div>
+
+
+
+
+
                 </div>
             </div>
         </section>
@@ -605,6 +625,16 @@
 
     <script>
         AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed(".typed-text", {
+            strings: ["Frontend Web Developer", "Graphics Designer", "Wordpress Developer"],
+            typeSpeed: 60,
+            backSpeed: 40,
+            loop: true
+        });
     </script>
 
 </body>
