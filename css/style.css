@@ -6,16 +6,8 @@ span {
     text-decoration: none;
 }
 
-body {
-    font-family: "Poppins", sans-serif;
-}
-
 .row {
     margin: 0px;
-}
-
-.brown {
-    color: #bf4a1a;
 }
 
 h1 {
@@ -28,20 +20,17 @@ h2 {
     font-family: "Oswald", sans-serif;
 }
 
-.hero-des {
-    font-size: 60px;
-    color: #f1f1f1;
-}
-
 ul li {
     list-style: none;
 }
 
+ul li a{border-bottom: 3px solid transparent !important; }
 
 ul li a:hover {
     color: white !important;
-    border-bottom: 3px solid #0d6efd;
+    border-bottom: 3px solid #0d6efd !important;
 }
+
 
 
 .logo {
@@ -82,7 +71,6 @@ nav a {
 
 .about-icon {
     background-color: #0d6efd;
-    display: inline-block;
     height: 40px;
     width: 40px;
     border-radius: 100%;
@@ -97,18 +85,18 @@ nav a {
 
 .hero-social {
     border-radius: 10px;
-    top: 30%;
-    background-color: black;
+    top: 40%;
+    background-color: #afafaf;
 }
 
 .hero-social i {
-    color: black;
     font-size: 25px;
     padding: 10px;
+    color: black !important;
 }
 
 .hero-social>div>div:hover {
-    background-color: #afafaf;
+    background-color: #0d6efd;
 }
 
 header {
@@ -118,25 +106,10 @@ header {
     background-image: url(../img/bg-box.png);
 }
 
-.home-hero {
-    padding: 50px 0px 0px 0px;
-}
-
-.home-hero p {
-    color: #afafaf;
-}
-
 .heading {
     font-size: 40px;
     text-align: center;
     font-weight: 700;
-}
-
-.small-heading {
-    color: #0d6efd;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
 }
 
 .about-para {
@@ -167,14 +140,6 @@ header {
 }
 
 
-
-
-
-.im-parent {
-    cursor: pointer;
-    box-shadow: 0px 0px 6px 0px rgba(128, 128, 128, 0.27);
-}
-
 .port-info {
     background-color: rgba(0, 0, 0, 0.696);
     color: white;
@@ -190,13 +155,14 @@ header {
 }
 
 .port-info i:hover {
-    color: #0d6efd;
+    color: green;
 }
 
 .im-parent {
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.345);
+    cursor: pointer;
+    box-shadow: 0px 0px 6px 0px rgba(128, 128, 128, 0.27);
 }
 
 .im-parent:hover .port-info {
@@ -217,7 +183,7 @@ footer {
 
     background-color: #111215;
     padding: 100px 0px 30px;
-    border-top: 2px solid #0d6efd;
+    border-top: 2px solid #afafaf;
     color: white;
 }
 
@@ -272,12 +238,6 @@ footer i {
 }
 
 
-/* skills section end */
-
-
-
-
-
 /* service section start */
 
 #services {
@@ -303,34 +263,6 @@ footer i {
     color: #0d6efd;
     margin-bottom: 15px;
 }
-
-
-
-/* hero card start */
-
-.hero-card {
-    border-radius: 25px;
-}
-
-.hero-card a {
-    border: 2px solid black;
-    padding: 5px 10px;
-    border-radius: 10px;
-}
-
-.hero-card a:hover {
-    border-color: #0d6efd;
-    background-color: rgba(128, 128, 128, 0.036);
-}
-
-.hero-card i {
-    color: black;
-    font-size: 25px;
-}
-
-
-/* hero card end */
-
 
 /* contact form start */
 
@@ -362,7 +294,6 @@ footer i {
 }
 
 
-/* contact form end */
 
 /* responsive media start */
 
@@ -371,28 +302,14 @@ footer i {
         font-size: 60px;
     }
 
-    .hero-des {
-        font-size: 40px;
-    }
-
     .heading {
         font-size: 30px;
-    }
-
-    .service-card {
-        width: 90%;
-        height: auto;
     }
 
     .hero-img {
         width: 100%;
         max-width: 300px;
         margin: auto;
-    }
-
-    .row {
-        flex-direction: column;
-        align-items: center;
     }
 
     .hero-social {
@@ -404,15 +321,6 @@ footer i {
 @media (max-width: 576px) {
     h1 {
         font-size: 45px;
-    }
-
-    .hero-des {
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .home-hero p {
-        display: none;
     }
 
     .hero-img img {
@@ -435,9 +343,7 @@ footer i {
         padding: 0 10px;
     }
 
-    nav a {
-        font-size: 20px;
-    }
+
 
     .foot-contact {
         flex-direction: column;
@@ -445,6 +351,3 @@ footer i {
         text-align: center;
     }
 }
-
-
-/* responsive end */
